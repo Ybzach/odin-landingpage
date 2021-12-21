@@ -1,12 +1,35 @@
+* {
+    margin:0;
+}
+
+.topnav *{
+    display:inline;
+}
+
+.topnav .links {
+    float: right;
+}
+
 .main-container {
-    display:flex;
-    flex-direction: column;
+    display:block;
+    height: 2000px;
 }
 
 .main-container div{
     border: 1px;
     border-color: black;
-    flex-grow: 1;
-    flex-basis: auto;
-    height: 100px;
+    height: 25%;
+}
+
+.intro {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    height:50px;
 }
