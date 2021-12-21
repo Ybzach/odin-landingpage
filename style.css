@@ -1,0 +1,12 @@
+.main-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-container div{
+    border: 1px;
+    border-color: black;
+    flex-grow: 1;
+    flex-basis: auto;
+    height: 100px;
+}
